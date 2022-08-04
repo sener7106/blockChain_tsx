@@ -1,9 +1,11 @@
-{"include" : [
-    "src"
-],
-"compilerOptions": {"outDir" : "build",
-"target":"ES6"},
-"lib": ["ES6", "DOM"], // 자바스크립트 어떤 버전이 환경에서 사용되는지를 정의,
-"strict" : true,
-"allowJs" : true,
+{
+"include": ["src"],
+"compilerOptions": {
+  "outDir": "build",
+  "target": "ES6",
+  "lib": ["ES6"],
+  "strict": true,
+  "esModuleInterop": true,
+  "module": "CommonJS"
+}
 }
